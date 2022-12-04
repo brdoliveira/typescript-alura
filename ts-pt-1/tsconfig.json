@@ -3,7 +3,9 @@
         "outDir": "dist/js",
         "target": "ES6",
         "noEmitOnError": true,
-        "noImplicitAny": true
+        "noImplicitAny": true, // precisa especificar o tipo
+        "removeComments": true, // remove comentarios
+        "strictNullChecks": true // verifica valores nulos
     },
     "include": ["app/**/*"]
 }
